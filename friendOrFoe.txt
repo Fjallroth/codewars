@@ -1,0 +1,9 @@
+function friend(friends){
+  let newFriendArray = []
+  for(let i= 0; i<friends.length; i++){
+    if(friends[i].length == 4){
+    newFriendArray.push(`${friends[i]}`)
+    }
+  }
+  return newFriendArray
+}
